@@ -3,7 +3,7 @@ entries:
   metrics:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-13T23:14:41.823433+03:00"
+    created: "2022-03-13T23:46:52.282076+03:00"
     description: Metrics chart
     digest: e6ce837cd49344a977642834be5e48f46fa9b388c71eab2c43709a789f207391
     name: metrics
@@ -14,7 +14,7 @@ entries:
   prom:
   - apiVersion: v2
     appVersion: 1.18.0
-    created: "2022-03-13T23:14:41.825128+03:00"
+    created: "2022-03-13T23:46:52.283565+03:00"
     description: Prometheus Chart
     digest: fb7b26584d02a3f3e3b3455f33a7d6d5f0acd329a6fdebfe4547e9cb1c63c0d0
     name: prom
@@ -22,4 +22,14 @@ entries:
     urls:
     - https://maniaque.github.io/helm/prom-0.3.0.tgz
     version: 0.3.0
-generated: "2022-03-13T23:14:41.822285+03:00"
+  - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2022-03-13T23:46:52.28258+03:00"
+    description: Prometheus Chart
+    digest: 099f1e8dc2b2ec07997fc973d6cec9909bdce5644cd0b5c4c3f2f79667db1ef4
+    name: prom
+    type: application
+    urls:
+    - https://maniaque.github.io/helm/prom-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-03-13T23:46:52.280222+03:00"
